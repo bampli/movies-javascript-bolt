@@ -12,4 +12,5 @@ build
 .DS_Store
 npm-debug.log
 credentials.txt
+.env
 .env.test
