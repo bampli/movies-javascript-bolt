@@ -9,7 +9,7 @@ const buildDirectory = path.join(__dirname, 'build');
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/app.js'
+    app: './src/app.ts'
   },
   output: {
     filename: 'app.js',
