@@ -15,4 +15,5 @@ credentials.txt
 .env
 .env.test
 
-neo4j/
+neo4j/data
+neo4j/logs
