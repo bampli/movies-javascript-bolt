@@ -11,7 +11,7 @@ SET p.name = row.name,
 FOREACH (name IN split(row.genres, '|') |
 	MERGE (g:Genre {name: name})
   MERGE (p)-[:PROVIDES_ACCESS_TO]->(g)
-);
+)
 
 // FOREACH (name IN split(row.genres, '|') |
 // 	MERGE (g:Genre {name: name, id: apoc.text.random(2, "0-9")})
